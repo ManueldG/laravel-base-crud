@@ -1,0 +1,7 @@
+
+    @include('partials.header')
+    <body>
+
+    </body>
+    @include('partials.footer')
+
