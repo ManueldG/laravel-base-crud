@@ -1,4 +1,6 @@
 
+
+
     @include('partials.header')
     <body>
         @yield('content')
