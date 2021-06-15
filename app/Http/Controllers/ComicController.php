@@ -49,10 +49,13 @@ class ComicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        $comics = Comic::find($id);
+        $comics = Comic::where('slug',$slug)->first();
+        if ($comics)
         return view('comics.show',compact('comics'));
+
+        abort(404, 'PAGE NOT FOUND!');
     }
 
     /**

@@ -25,7 +25,7 @@
                         </td>
                         <td>DELETE</td>
                         <td>
-                            <a class="btn btn-primary"href="{{ route('comics.show',$comic->id) }}">SHOW</a>
+                            <a class="btn btn-primary"href="{{ route('comics.show',$comic->slug) }}">SHOW</a>
                         </td>
                     </tr>
                 @endforeach
