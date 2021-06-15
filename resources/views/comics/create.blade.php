@@ -20,6 +20,36 @@
                     <label for="description" class="control-label">description</label>
                     <textarea name="description" id="description" class="form-control"></textarea>
                 </div>
+
+                <div class="mb-3">
+                    <label for="type" class="control-label">Type</label>
+                    <select name="type" id="type">
+                        <option value="graphic novel">graphic novel</option>
+                        <option value="comic book">comic book</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="image" class="control-label">Image</label>
+                    <input type="file" name="image" id="image" >
+                </div>
+
+                <div class="mb-3">
+                    <label for="price" class="control-label">Price</label>
+                    <input type="number" name="price" id="price" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="series" class="control-label">Series</label>
+                    <input type="text" name="series" id="series" class="form-control">
+                </div>
+
+
+
+
+                <button type="submit" class="btn btn-primary">Invia</button>
+
+
                 </form>
             </div>
         </div>
